@@ -1,0 +1,351 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@300&family=Roboto&display=swap");
+body {
+  padding: 0;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+}
+
+.startDiv {
+  display: flex;
+  align-items: center;
+  padding: 10px 0px;
+}
+.headingOptions {
+  display: flex;
+  height: 50px;
+  margin-left: 60px;
+}
+.logInAndRegister {
+  display: flex;
+  position: absolute;
+  right: 30px;
+  height: 50px;
+}
+.logIn {
+  margin-right: 40px;
+}
+.headingOptions > button {
+  margin-right: 30px;
+}
+.startDiv > img {
+  height: 50px;
+}
+.blueButton {
+  height: 50px;
+  display: flex;
+  background-color: #322c74;
+  justify-content: center;
+  width: 125px;
+  border-radius: 10px;
+}
+.whyBitneth1 {
+  font-size: 3.3rem;
+}
+.blueButton > button {
+  color: #ffffff;
+}
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: black;
+  font-size: 1.1rem;
+}
+button:hover {
+  color: #0d6efd;
+}
+hr {
+  height: 1px;
+  opacity: 0.2;
+}
+.firstDiv {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 200px;
+}
+.firstDiv > img {
+  width: 500px;
+}
+.cryptoForEverybody {
+  display: block;
+  align-items: center;
+  font-size: 1.4rem;
+}
+* .cryptoForEverybody {
+  display: block;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.cryptoForEverybodyh1 {
+  display: inline-block;
+  font-size: 3rem;
+}
+
+.cryptoForEverybodyp {
+  color: #626262;
+}
+.bitnetLogo {
+  cursor: pointer;
+}
+.icon {
+  background: #0d6efd;
+  display: inline-block;
+  padding: 30px;
+  color: white;
+  border-radius: 50%;
+}
+.conatiner {
+  width: 300px;
+  height: 200px;
+  border: solid black 1px;
+  border-radius: 15px;
+  padding-top: 20px;
+  margin: 30px;
+  padding-bottom: 30px;
+}
+.secondDiv {
+  text-align: center;
+}
+.whyBitnetDivs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.thirdDiv {
+  display: flex;
+}
+.thirdDiv > img {
+  margin-left: auto;
+  margin-bottom: 100px;
+}
+.howToGetStartedDiv > h3,
+.text {
+  display: inline-block;
+}
+.howToGetStartedDiv {
+  width: 100%;
+}
+.howToGetStarted {
+  width: 100%;
+  font-size: 1.3rem;
+}
+.howToGetStartedDiv > h3 {
+  position: relative;
+  bottom: 48px;
+  color: #0d6efd;
+}
+.text > p {
+  position: relative;
+  bottom: 20px;
+  color: #626262;
+}
+.text {
+  margin-left: 50px;
+}
+.howToGetStarted > h1 {
+  font-size: 50px;
+}
+.getStarted {
+  background-color: #4d44b3;
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
+  height: 60px;
+  width: 270px;
+  margin-top: 30px;
+}
+.getStarted:hover {
+  background-color: #322c74;
+}
+.partners {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #2768f2;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+  margin-bottom: 100px;
+}
+.partners > img {
+  width: 240px;
+}
+.question {
+  height: 80px;
+  border-bottom: solid #626262 1px;
+  cursor: pointer;
+}
+.question > p {
+  margin-top: 20px;
+  font-weight: 800;
+}
+.fourthDiv > p {
+  color: #626262;
+  margin-bottom: 100px;
+}
+.fourthDiv {
+  margin-bottom: 100px;
+}
+.getStarted:hover {
+  color: white;
+}
+.register:hover {
+  color: white;
+}
+.littleIcon {
+  color: white;
+  background-color: #4d44b3;
+  padding: 16px;
+  border-radius: 6px;
+  display: inline-block;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.littleIcon > i {
+  font-size: 20px;
+}
+.photos > img {
+  opacity: 0.5;
+}
+.fifthDiv {
+  display: flex;
+  margin-top: 60px;
+  margin-bottom: 100px;
+}
+.contact {
+  color: #626262;
+  font-size: 0.8rem;
+}
+.contactUs {
+  position: relative;
+  left: 120px;
+}
+.company {
+  position: relative;
+  margin-left: 300px;
+}
+.bigImage {
+  width: 600px;
+}
+
+@media only screen and (max-width: 768px) {
+  .fifthDiv {
+    display: block;
+    text-align: center;
+  }
+  .company {
+    position: static;
+    margin-bottom: 60px;
+    margin-left: 0;
+  }
+  .contactUs {
+    position: static;
+    margin-bottom: 60px;
+  }
+  .contact {
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  body {
+    padding: 0;
+    margin-left: 15vw;
+    margin-right: 15vw;
+  }
+  .firstDiv > img {
+    width: 300px;
+  }
+  .bigImage {
+    position: relative;
+    top: 100px;
+    width: 450px;
+    height: auto;
+    align-self: flex-start;
+  }
+  .thirdDiv {
+    align-items: center;
+  }
+  .text {
+    position: relative;
+    bottom: 130px;
+    margin-bottom: 40px;
+  }
+  .getStarted {
+    margin-top: 0;
+  }
+  .logInAndRegister {
+    right: 200px;
+  }
+  .two {
+    position: relative;
+    bottom: 100px;
+  }
+  .three {
+    position: relative;
+    bottom: 200px;
+  }
+  .partners > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .partners {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    display: block;
+  }
+}
+@media only screen and (max-width: 1120px) {
+  .headingOptions {
+    display: none;
+  }
+  .logInAndRegister {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1036px) {
+  body {
+    margin-left: 2vw;
+    margin-right: 2vw;
+  }
+  .firstDiv {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .getStarted {
+    width: 100%;
+  }
+  .firstDiv > img {
+    width: 100%;
+  }
+  .thirdDiv {
+    display: block;
+  }
+  .bigImage {
+    width: 100%;
+  }
+  .howToGetStartedDiv {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  .text {
+    position: static;
+  }
+  .text > h3 {
+    margin-bottom: 30px;
+  }
+  br {
+    display: none;
+  }
+  #thirdDivBtn {
+    position: relative;
+    bottom: 120px;
+  }
+}

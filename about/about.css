@@ -1,0 +1,147 @@
+@import url(../main/main.css);
+.aboutAndPress {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  margin-top: 70px;
+}
+.Press {
+  display: none;
+}
+.aboutAndPress > p {
+  display: inline-block;
+}
+.startingText {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.aboutDiv,
+.pressDiv {
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.aboutDiv {
+  border-bottom: 5px solid black;
+}
+.pressDiv {
+  border-bottom: 1px solid black;
+}
+.picture {
+  height: 500px;
+  border-radius: 30px;
+  width: 100%;
+  border: 3px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.people {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px;
+}
+.person {
+  margin: 30px 30px;
+}
+.photo {
+  height: 200px;
+  width: 200px;
+  background-color: #2768f2;
+  border-radius: 50%;
+}
+.partnersOfTheCompany {
+  display: flex;
+}
+.partnerCompany {
+  height: 100px;
+  width: 150px;
+  background-color: red;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.photosOfPartners {
+  margin-top: 50px;
+  margin-bottom: 120px;
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.divOfh1 {
+  width: 40%;
+}
+h1 {
+  font-size: 3rem;
+}
+p {
+  letter-spacing: 0.2px;
+  word-spacing: 2px;
+  color: #919491;
+}
+.about {
+  color: black;
+  cursor: pointer;
+}
+.press {
+  cursor: pointer;
+}
+.block {
+  height: 10px;
+  width: 10px;
+  background-color: #2768f2;
+  margin-right: 30px;
+}
+.mail,
+.number {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  width: 500px;
+  border-bottom: 1px solid black;
+}
+.icons2 {
+  margin-top: 60px;
+  margin-bottom: 90px;
+}
+.lastHR {
+  margin-bottom: 100px;
+}
+@media only screen and (max-width: 1200px) {
+  .picture {
+    height: 300px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .partnersOfTheCompany {
+    display: block;
+  }
+  .photosOfPartners {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    justify-content: center;
+  }
+  .divOfh1 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .picture {
+    height: 200px;
+  }
+  .people {
+    justify-content: center;
+  }
+  .whoWeAre > h1 {
+    font-size: 1.5rem;
+  }
+}
+@media only screen and (max-width: 568px) {
+  .icons2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+}
